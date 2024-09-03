@@ -47,7 +47,7 @@ class Solution:
 
 #Optimal approach
 class Solution:
-    def setZeroes(self, matrix: List[List[int]]) -> None:
+    def setZeroes(self, matrix: list[list[int]]) -> None:
         n = len(matrix)  #rows
         m = len(matrix[0]) #cols
         col0 = 1
